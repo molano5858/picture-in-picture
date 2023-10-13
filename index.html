@@ -4,10 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
     <link rel="stylesheet" href="./styles.css" />
     <title>Picture in Picture</title>
   </head>
   <body>
+    <h2>Instructions</h2>
+    <p>
+      1. Click Select Window, select the window you want to Pop-up and come back
+      here again
+    </p>
+    <p>2. Click Start Share window and It should appear the Pop-up</p>
+
+    <!-- Video -->
+    <video controls width="640" height="360" id="video" hidden></video>
+    <!-- Button -->
+    <div class="button-container">
+      <button id="button-select">Select Window</button>
+      <button id="button">Start Share</button>
+    </div>
     <script src="./main.js"></script>
   </body>
 </html>
